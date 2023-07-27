@@ -1,0 +1,20 @@
+.AddressItem {
+  .text {
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+    color: #ccc;
+    font-size: 14px;
+  }
+
+  :global {
+    .adm-list-item-content-prefix {
+      --prefix-width: 100px;
+    }
+    // .adm-list-item-content-main {
+    //   flex: 1;
+    // }
+  }
+}

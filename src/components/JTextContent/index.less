@@ -1,0 +1,32 @@
+.JTextContent {
+  overflow: hidden;
+  width: 100%;
+}
+
+.label {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, "PingFang SC";
+  font-weight: 400;
+  color: rgb(0 0 0 / 85%);
+  line-height: 24px;
+  padding: 2px 0;
+  display: flex;
+  word-break: break-all;
+
+  &>div {
+    display: inline-block;
+  }
+}
+
+.left {
+  width: 100px;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.right {
+  flex: 1;
+}

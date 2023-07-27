@@ -1,0 +1,29 @@
+.JHeader {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100vw;
+
+  --height: 44px;
+
+  background: #fff;
+  padding: 0 15px;
+
+  .backArrow {
+    width: 16px;
+    height: 16px;
+    background: url(assets/img/common/arrow_back.png) no-repeat center center /
+      contain;
+  }
+
+  :global {
+    .adm-nav-bar-title {
+      font-size: 16px;
+      font-family: PingFangSC-Medium, "PingFang SC";
+      font-weight: 500;
+      color: #000;
+      line-height: 24px;
+    }
+  }
+}

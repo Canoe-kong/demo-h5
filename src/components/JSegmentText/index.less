@@ -1,0 +1,21 @@
+.JSegmentText {
+  display: inline-block;
+  line-height: 20px;
+
+  .textNoWrap {
+    display: inline-block;
+    padding-right: 4px;
+
+    &:not(:first-of-type) {
+      &::before {
+        display: inline-block;
+        content: '';
+        margin-right: 4px;
+        width: 1px;
+        height: 14px;
+        background: #e6e6e6;
+        vertical-align: middle;
+      }
+    }
+  }
+}

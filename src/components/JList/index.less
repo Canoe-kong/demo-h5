@@ -1,0 +1,26 @@
+.JList {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .scrollContent {
+    overflow: scroll;
+    flex: 1;
+    padding: 0 15px;
+    padding-top: 15px;
+  }
+
+  .list {
+    --border-inner: none;
+    --padding-left: 0;
+    --adm-color-background: transparent;
+
+    margin: 0;
+  }
+
+  :global {
+    .adm-list-item-content-main {
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.JCachePage {
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background: @bg-default;
+
+  &>* {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    background-color: var(--lc-body-background-color);
+    padding: var(--lc-body-padding);
+  }
+}
+
+:global {
+  body {
+    overflow: hidden;
+  }
+}

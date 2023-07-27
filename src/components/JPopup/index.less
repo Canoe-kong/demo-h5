@@ -1,0 +1,32 @@
+.JPopup {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 40px;
+    border-bottom: 0.5px solid #f0f0f0;
+
+    .confirm,
+    .cancel {
+      font-size: var(--adm-font-size-7);
+      display: inline-block;
+      padding: 4px;
+
+      &:active {
+        opacity: 0.8;
+      }
+    }
+
+    .confirm {
+      color: rgb(19, 119, 254);
+    }
+
+    .title {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
