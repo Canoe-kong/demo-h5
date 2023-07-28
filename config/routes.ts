@@ -15,6 +15,11 @@ export default [
     title: '404',
   },
   {
+    path: '/403',
+    component: '@/pages/error/403',
+    title: '403',
+  },
+  {
     path: '/',
     wrappers: ['@/wrappers/auth'],
     component: '@/pages/layouts',
